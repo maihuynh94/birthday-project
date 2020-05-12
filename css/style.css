@@ -1,0 +1,983 @@
+body {
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* OBJECTS */
+
+.bd__content2 img {
+   width: 80px;
+   height: 160px;
+}
+section {
+  /* background: radial-gradient(#333, #000); */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.bd__content2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.bd__content2 div {
+  position: absolute;
+  display: block;
+}
+.bd__content2 div:nth-child(1) {
+  left: 20%;
+  -webkit-animation: animateObj 15s linear infinite;
+          animation: animateObj 15s linear infinite;
+  -webkit-animation-delay: -7s;
+          animation-delay: -7s;
+}
+.bd__content2 div:nth-child(2) {
+  left: 50%;
+  -webkit-animation: animateObj 20s linear infinite;
+          animation: animateObj 20s linear infinite;
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
+}
+.bd__content2 div:nth-child(3) {
+  left: 70%;
+  -webkit-animation: animateObj 25s linear infinite;
+          animation: animateObj 25s linear infinite;
+}
+.bd__content2 div:nth-child(4) {
+  left: 35%;
+  -webkit-animation: animateObj 15s linear infinite;
+          animation: animateObj 15s linear infinite;
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
+}
+.bd__content2 div:nth-child(5) {
+  left: 85%;
+  -webkit-animation: animateObj 18s linear infinite;
+          animation: animateObj 18s linear infinite;
+  -webkit-animation-delay: -10s;
+          animation-delay: -10s;
+}
+.bd__content2 div:nth-child(6) {
+  left: 0%;
+  -webkit-animation: animateObj 12s linear infinite;
+          animation: animateObj 12s linear infinite;
+}
+.bd__content2 div:nth-child(7) {
+  left: 15%;
+  -webkit-animation: animateObj 14s linear infinite;
+          animation: animateObj 14s linear infinite;
+}
+.bd__content2 div:nth-child(8) {
+  left: 60%;
+  -webkit-animation: animateObj 10s linear infinite;
+          animation: animateObj 10s linear infinite;
+}
+.bd__content2 div:nth-child(9) {
+  left: 10%;
+  -webkit-animation: animateObj 12s linear infinite;
+          animation: animateObj 12s linear infinite;
+}
+.bd__content2 div:nth-child(10) {
+  left: 30%;
+  -webkit-animation: animateObj 15s linear infinite;
+          animation: animateObj 15s linear infinite;
+}
+.bd__content2 div:nth-child(11) {
+  left: 75%;
+  -webkit-animation: animateObj 8s linear infinite;
+          animation: animateObj 8s linear infinite;
+}
+.bd__content2 div:nth-child(12) {
+  left: 55%;
+  -webkit-animation: animateObj 17s linear infinite;
+          animation: animateObj 17s linear infinite;
+}
+
+.set2 {
+  -webkit-transform: scale(2) rotateY(180deg);
+          transform: scale(2) rotateY(180deg);
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+}
+@-webkit-keyframes animateObj {
+  0% {
+    opacity: 0;
+    top: -10%;
+    -webkit-transform: translateX(20px) rotate(0);
+            transform: translateX(20px) rotate(0);
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    -webkit-transform: translateX(-20px) rotate(45deg);
+            transform: translateX(-20px) rotate(45deg);
+  }
+  40% {
+    -webkit-transform: translateX(-20px) rotate(90deg);
+            transform: translateX(-20px) rotate(90deg);
+  }
+  60% {
+    -webkit-transform: translateX(20px) rotate(135deg);
+            transform: translateX(20px) rotate(135deg);
+  }
+  80% {
+    -webkit-transform: translateX(-20px) rotate(180deg);
+            transform: translateX(-20px) rotate(180deg);
+  }
+  100% {
+    top: 110%;
+    -webkit-transform: translateX(-20px) rotate(225deg);
+            transform: translateX(-20px) rotate(225deg);
+  }
+}
+@keyframes animateObj {
+  0% {
+    opacity: 0;
+    top: -10%;
+    -webkit-transform: translateX(20px) rotate(0);
+            transform: translateX(20px) rotate(0);
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    -webkit-transform: translateX(-20px) rotate(45deg);
+            transform: translateX(-20px) rotate(45deg);
+  }
+  40% {
+    -webkit-transform: translateX(-20px) rotate(90deg);
+            transform: translateX(-20px) rotate(90deg);
+  }
+  60% {
+    -webkit-transform: translateX(20px) rotate(135deg);
+            transform: translateX(20px) rotate(135deg);
+  }
+  80% {
+    -webkit-transform: translateX(-20px) rotate(180deg);
+            transform: translateX(-20px) rotate(180deg);
+  }
+  100% {
+    top: 110%;
+    -webkit-transform: translateX(-20px) rotate(225deg);
+            transform: translateX(-20px) rotate(225deg);
+  }
+}
+
+/* FLAGS */
+.bd__content3 img {
+  width: 300px;
+  height: 100px;
+}
+
+.bd__content3 {
+  position: relative;
+}
+.bd__item {
+  position: absolute;
+  top: 10px;
+}
+.bd__item1 {
+  left: 200px;
+}
+.bd__item2 {
+  left: 36.5%;
+}
+.bd__item3 {
+  right: 270px;
+}
+
+/* BD RAINBOW CAKE */
+.bd__cake {
+  position: relative;
+}
+.round__shape {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 100% 2% 100% 100%;
+  background-color: #e05c98;
+  opacity: 0;
+}
+
+.round__shape1,
+.round__shape2 {
+  bottom: -108px;
+}
+.round__shape3,
+.round__shape7,
+.round__shape8,
+.round__shape9,
+.round__shape10 {
+  bottom: -130px;
+}
+.round__shape1 {
+  left: 33.3%;
+  -webkit-animation: cakeanimation1 4s 1 forwards;
+          animation: cakeanimation1 4s 1 forwards;
+}
+.round__shape2 {
+  left: 37.6%;
+  -webkit-animation: cakeanimation2 4s 1 forwards;
+          animation: cakeanimation2 4s 1 forwards;
+}
+.round__shape3 {
+  left: 43.3%;
+  -webkit-animation: cakeanimation3 4s 1 forwards;
+          animation: cakeanimation3 4s 1 forwards;
+}
+.round__shape4 {
+  left: 49%;
+  -webkit-animation: cakeanimation4 4s 1 forwards;
+          animation: cakeanimation4 4s 1 forwards;
+}
+.round__shape5 {
+  right: 43.6%;
+  -webkit-animation: cakeanimation5 4s 1 forwards;
+          animation: cakeanimation5 4s 1 forwards;
+}
+.round__shape6 {
+  right: 39.7%;
+  bottom: -107px;
+  -webkit-animation: cakeanimation6 4s 1 forwards;
+          animation: cakeanimation6 4s 1 forwards;
+}
+.round__shape7 {
+  left: 27.5%;
+  -webkit-animation: cakeanimation7 4s 1 forwards;
+          animation: cakeanimation7 4s 1 forwards;
+}
+.round__shape8 {
+  left: 21.7%;
+  -webkit-animation: cakeanimation8 4s 1 forwards;
+          animation: cakeanimation8 4s 1 forwards;
+}
+.round__shape9 {
+  right: 34%;
+  -webkit-animation: cakeanimation9 4s 1 forwards;
+          animation: cakeanimation9 4s 1 forwards;
+}
+.round__shape10 {
+  right: 28%;
+  -webkit-animation: cakeanimation10 4s 1 forwards;
+          animation: cakeanimation10 4s 1 forwards;
+}
+
+@-webkit-keyframes cakeanimation1 {
+  0% {
+    background-color: #e05c98;
+    bottom: -108px;
+    left: 33.3%;
+  }
+
+  25% {
+    opacity: 1;
+    background: pink;
+    left: 30%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    -webkit-transform: scale(2, 1);
+            transform: scale(2, 1);
+  }
+
+  100% {
+    background: rgb(43, 13, 13);
+    bottom: -530px;
+    left: 35%;
+    width: 390px;
+    height: 25px;
+    border-radius: 60px;
+    opacity: 1;
+    border: 2px solid rgb(65, 20, 20);
+    -webkit-box-shadow: 0 2px 3px 2px;
+            box-shadow: 0 2px 3px 2px;
+  }
+}
+
+@keyframes cakeanimation1 {
+  0% {
+    background-color: #e05c98;
+    bottom: -108px;
+    left: 33.3%;
+  }
+
+  25% {
+    opacity: 1;
+    background: pink;
+    left: 30%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    -webkit-transform: scale(2, 1);
+            transform: scale(2, 1);
+  }
+
+  100% {
+    background: rgb(43, 13, 13);
+    bottom: -530px;
+    left: 35%;
+    width: 390px;
+    height: 25px;
+    border-radius: 60px;
+    opacity: 1;
+    border: 2px solid rgb(65, 20, 20);
+    -webkit-box-shadow: 0 2px 3px 2px;
+            box-shadow: 0 2px 3px 2px;
+  }
+}
+@-webkit-keyframes cakeanimation2 {
+  0% {
+    background-color: #e05c98;
+    bottom: -108px;
+    left: 37.6%;
+  }
+  25% {
+    opacity: 1;
+    background: orchid;
+    left: 40%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    -webkit-transform: scale(2, 1);
+            transform: scale(2, 1);
+  }
+  100% {
+    background: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+
+    bottom: -500px;
+    left: 37.5%;
+    width: 320px;
+    height: 100px;
+    border-radius: 30px 30px 0 0;
+    opacity: 1;
+    border: 1px solid rgb(43, 13, 13);
+  }
+}
+@keyframes cakeanimation2 {
+  0% {
+    background-color: #e05c98;
+    bottom: -108px;
+    left: 37.6%;
+  }
+  25% {
+    opacity: 1;
+    background: orchid;
+    left: 40%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    -webkit-transform: scale(2, 1);
+            transform: scale(2, 1);
+  }
+  100% {
+    background: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+
+    bottom: -500px;
+    left: 37.5%;
+    width: 320px;
+    height: 100px;
+    border-radius: 30px 30px 0 0;
+    opacity: 1;
+    border: 1px solid rgb(43, 13, 13);
+  }
+}
+@-webkit-keyframes cakeanimation3 {
+  0% {
+    background-color: #e05c98;
+    bottom: -130px;
+    left: 43.3%;
+  }
+  25% {
+    opacity: 1;
+    background-image: -webkit-gradient(
+      linear,
+      left top, left bottom,
+      from(#b8cbb8),
+      color-stop(0%, #b8cbb8),
+      color-stop(0%, #b465da),
+      color-stop(33%, #cf6cc9),
+      color-stop(66%, #ee609c),
+      to(#ee609c)
+    );
+    background-image: linear-gradient(
+      to bottom,
+      #b8cbb8 0%,
+      #b8cbb8 0%,
+      #b465da 0%,
+      #cf6cc9 33%,
+      #ee609c 66%,
+      #ee609c 100%
+    );
+    left: 25%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    -webkit-transform: scale(2, 1);
+            transform: scale(2, 1);
+  }
+
+  100% {
+    background-color: #a40606;
+    background: linear-gradient(315deg, #a40606 0%, #d98324 74%);
+    bottom: -400px;
+    left: 40.7%;
+    width: 230px;
+    height: 100px;
+    border-radius: 30px 30px 0 0;
+    opacity: 1;
+    border: 1px solid rgb(43, 13, 13);
+  }
+}
+@keyframes cakeanimation3 {
+  0% {
+    background-color: #e05c98;
+    bottom: -130px;
+    left: 43.3%;
+  }
+  25% {
+    opacity: 1;
+    background-image: -webkit-gradient(
+      linear,
+      left top, left bottom,
+      from(#b8cbb8),
+      color-stop(0%, #b8cbb8),
+      color-stop(0%, #b465da),
+      color-stop(33%, #cf6cc9),
+      color-stop(66%, #ee609c),
+      to(#ee609c)
+    );
+    background-image: linear-gradient(
+      to bottom,
+      #b8cbb8 0%,
+      #b8cbb8 0%,
+      #b465da 0%,
+      #cf6cc9 33%,
+      #ee609c 66%,
+      #ee609c 100%
+    );
+    left: 25%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    -webkit-transform: scale(2, 1);
+            transform: scale(2, 1);
+  }
+
+  100% {
+    background-color: #a40606;
+    background: linear-gradient(315deg, #a40606 0%, #d98324 74%);
+    bottom: -400px;
+    left: 40.7%;
+    width: 230px;
+    height: 100px;
+    border-radius: 30px 30px 0 0;
+    opacity: 1;
+    border: 1px solid rgb(43, 13, 13);
+  }
+}
+
+@-webkit-keyframes cakeanimation4 {
+  0% {
+    background-color: #e05c98;
+    bottom: -130px;
+    left: 49%;
+  }
+  25% {
+    opacity: 1;
+    background-color: skyblue;
+    -webkit-transform: translateX(-49%) rotate(360deg);
+            transform: translateX(-49%) rotate(360deg);
+  }
+
+  100% {
+    background-color: rgb(43, 13, 13);
+    bottom: -358px;
+    left: 40.5%;
+    width: 70px;
+    height: 60px;
+    border-radius: 35px 0 100px 100px;
+    opacity: 1;
+    -webkit-box-shadow: 0 0 3px 2px;
+            box-shadow: 0 0 3px 2px;
+  }
+}
+
+@keyframes cakeanimation4 {
+  0% {
+    background-color: #e05c98;
+    bottom: -130px;
+    left: 49%;
+  }
+  25% {
+    opacity: 1;
+    background-color: skyblue;
+    -webkit-transform: translateX(-49%) rotate(360deg);
+            transform: translateX(-49%) rotate(360deg);
+  }
+
+  100% {
+    background-color: rgb(43, 13, 13);
+    bottom: -358px;
+    left: 40.5%;
+    width: 70px;
+    height: 60px;
+    border-radius: 35px 0 100px 100px;
+    opacity: 1;
+    -webkit-box-shadow: 0 0 3px 2px;
+            box-shadow: 0 0 3px 2px;
+  }
+}
+@-webkit-keyframes cakeanimation5 {
+  0% {
+    background-color: #e05c98;
+    bottom: -108px;
+    right: 43.6%;
+  }
+  25% {
+    opacity: 1;
+    background-color: rgb(176, 96, 207);
+    -webkit-transform: translateX(-43%) rotate(360deg);
+            transform: translateX(-43%) rotate(360deg);
+  }
+  100% {
+    background-color: rgb(43, 13, 13);
+    bottom: -372px;
+    left: 45%;
+    width: 120px;
+    height: 75px;
+    border-radius: 35px 0 150px 150px;
+    opacity: 1;
+    -webkit-box-shadow: 0 0 3px 2px;
+            box-shadow: 0 0 3px 2px;
+  }
+}
+@keyframes cakeanimation5 {
+  0% {
+    background-color: #e05c98;
+    bottom: -108px;
+    right: 43.6%;
+  }
+  25% {
+    opacity: 1;
+    background-color: rgb(176, 96, 207);
+    -webkit-transform: translateX(-43%) rotate(360deg);
+            transform: translateX(-43%) rotate(360deg);
+  }
+  100% {
+    background-color: rgb(43, 13, 13);
+    bottom: -372px;
+    left: 45%;
+    width: 120px;
+    height: 75px;
+    border-radius: 35px 0 150px 150px;
+    opacity: 1;
+    -webkit-box-shadow: 0 0 3px 2px;
+            box-shadow: 0 0 3px 2px;
+  }
+}
+
+@-webkit-keyframes cakeanimation6 {
+  0% {
+    background-color: #e05c98;
+    right: 39.7%;
+    bottom: -107px;
+  }
+  25% {
+    opacity: 1;
+    background-color: rgb(201, 68, 90);
+    -webkit-transform: translateX(-35%) rotate(360deg);
+            transform: translateX(-35%) rotate(360deg);
+  }
+  100% {
+    background-color: rgb(43, 13, 13);
+    bottom: -357px;
+    left: 52.5%;
+    width: 80px;
+    height: 60px;
+    border-radius: 0 30px 100px 100px;
+    opacity: 1;
+    -webkit-box-shadow: 0 0 3px 2px;
+            box-shadow: 0 0 3px 2px;
+  }
+}
+
+@keyframes cakeanimation6 {
+  0% {
+    background-color: #e05c98;
+    right: 39.7%;
+    bottom: -107px;
+  }
+  25% {
+    opacity: 1;
+    background-color: rgb(201, 68, 90);
+    -webkit-transform: translateX(-35%) rotate(360deg);
+            transform: translateX(-35%) rotate(360deg);
+  }
+  100% {
+    background-color: rgb(43, 13, 13);
+    bottom: -357px;
+    left: 52.5%;
+    width: 80px;
+    height: 60px;
+    border-radius: 0 30px 100px 100px;
+    opacity: 1;
+    -webkit-box-shadow: 0 0 3px 2px;
+            box-shadow: 0 0 3px 2px;
+  }
+}
+
+@-webkit-keyframes cakeanimation7 {
+  0% {
+    background-color: #e05c98;
+    left: 27.5%;
+    bottom: -130px;
+  }
+  25% {
+    opacity: 1;
+    background-color: rgb(162, 0, 255);
+    -webkit-transform: translateX(-28%) rotate(180deg);
+            transform: translateX(-28%) rotate(180deg);
+  }
+  100% {
+    opacity: 1;
+    background-color: rgb(247, 204, 135);
+    border: 2px solid rgb(253, 204, 161);
+    bottom: -295px;
+    left: 45.5%;
+    width: 40px;
+    height: 20px;
+    border-radius: 25px 25px 0 0;
+    -webkit-box-shadow: 0 0 3px 2px;
+            box-shadow: 0 0 3px 2px;
+    z-index: 200;
+  }
+}
+
+@keyframes cakeanimation7 {
+  0% {
+    background-color: #e05c98;
+    left: 27.5%;
+    bottom: -130px;
+  }
+  25% {
+    opacity: 1;
+    background-color: rgb(162, 0, 255);
+    -webkit-transform: translateX(-28%) rotate(180deg);
+            transform: translateX(-28%) rotate(180deg);
+  }
+  100% {
+    opacity: 1;
+    background-color: rgb(247, 204, 135);
+    border: 2px solid rgb(253, 204, 161);
+    bottom: -295px;
+    left: 45.5%;
+    width: 40px;
+    height: 20px;
+    border-radius: 25px 25px 0 0;
+    -webkit-box-shadow: 0 0 3px 2px;
+            box-shadow: 0 0 3px 2px;
+    z-index: 200;
+  }
+}
+
+@-webkit-keyframes cakeanimation8 {
+  0% {
+    background-color: #e05c98;
+    left: 21.7%;
+    bottom: -130px;
+  }
+  25% {
+    opacity: 1;
+    background-color: rgb(255, 251, 0);
+    -webkit-transform: translateX(-20%);
+            transform: translateX(-20%);
+  }
+  100% {
+    opacity: 1;
+    background-color: rgb(247, 204, 135);
+    border: 2px solid rgb(253, 204, 161);
+    bottom: -290px;
+    left: 47%;
+    width: 40px;
+    height: 120px;
+    border-radius: 0;
+    -webkit-box-shadow: 0 0 3px 2px;
+            box-shadow: 0 0 3px 2px;
+  }
+}
+
+@keyframes cakeanimation8 {
+  0% {
+    background-color: #e05c98;
+    left: 21.7%;
+    bottom: -130px;
+  }
+  25% {
+    opacity: 1;
+    background-color: rgb(255, 251, 0);
+    -webkit-transform: translateX(-20%);
+            transform: translateX(-20%);
+  }
+  100% {
+    opacity: 1;
+    background-color: rgb(247, 204, 135);
+    border: 2px solid rgb(253, 204, 161);
+    bottom: -290px;
+    left: 47%;
+    width: 40px;
+    height: 120px;
+    border-radius: 0;
+    -webkit-box-shadow: 0 0 3px 2px;
+            box-shadow: 0 0 3px 2px;
+  }
+}
+@-webkit-keyframes cakeanimation9 {
+  0% {
+    background-color: #e05c98;
+    right: 34%;
+    bottom: -130px;
+  }
+  25% {
+    opacity: 1;
+    background-color: rgb(255, 0, 76);
+    -webkit-transform: translateX(-34%) rotate(180deg);
+            transform: translateX(-34%) rotate(180deg);
+  }
+  100% {
+    opacity: 1;
+    background-color: rgb(247, 204, 135);
+    border: 2px solid rgb(253, 204, 161);
+    bottom: -295px;
+    left: 48.5%;
+    width: 40px;
+    height: 20px;
+    border-radius: 25px 25px 0 0;
+    -webkit-box-shadow: 0 0 3px 2px;
+            box-shadow: 0 0 3px 2px;
+    z-index: 200;
+  }
+}
+@keyframes cakeanimation9 {
+  0% {
+    background-color: #e05c98;
+    right: 34%;
+    bottom: -130px;
+  }
+  25% {
+    opacity: 1;
+    background-color: rgb(255, 0, 76);
+    -webkit-transform: translateX(-34%) rotate(180deg);
+            transform: translateX(-34%) rotate(180deg);
+  }
+  100% {
+    opacity: 1;
+    background-color: rgb(247, 204, 135);
+    border: 2px solid rgb(253, 204, 161);
+    bottom: -295px;
+    left: 48.5%;
+    width: 40px;
+    height: 20px;
+    border-radius: 25px 25px 0 0;
+    -webkit-box-shadow: 0 0 3px 2px;
+            box-shadow: 0 0 3px 2px;
+    z-index: 200;
+  }
+}
+@-webkit-keyframes cakeanimation10 {
+  0% {
+    background-color: #e05c98;
+    right: 28%;
+    bottom: -130px;
+  }
+  25% {
+    opacity: 1;
+    background-color: rgb(255, 102, 0);
+    -webkit-transform: translateX(-30%) rotate(180deg);
+            transform: translateX(-30%) rotate(180deg);
+  }
+  100% {
+    opacity: 1;
+    background-color: rgb(247, 204, 135);
+    border: 2px solid rgb(253, 204, 161);
+    bottom: -180px;
+    left: 48.5%;
+    margin-left: -20px;
+    width: 40px;
+    height: 35px;
+    border-radius: 20px / 25px 25px 10px 10px;
+    -webkit-box-shadow: 0 0 3px 2px;
+            box-shadow: 0 0 3px 2px;
+  }
+}
+@keyframes cakeanimation10 {
+  0% {
+    background-color: #e05c98;
+    right: 28%;
+    bottom: -130px;
+  }
+  25% {
+    opacity: 1;
+    background-color: rgb(255, 102, 0);
+    -webkit-transform: translateX(-30%) rotate(180deg);
+            transform: translateX(-30%) rotate(180deg);
+  }
+  100% {
+    opacity: 1;
+    background-color: rgb(247, 204, 135);
+    border: 2px solid rgb(253, 204, 161);
+    bottom: -180px;
+    left: 48.5%;
+    margin-left: -20px;
+    width: 40px;
+    height: 35px;
+    border-radius: 20px / 25px 25px 10px 10px;
+    -webkit-box-shadow: 0 0 3px 2px;
+            box-shadow: 0 0 3px 2px;
+  }
+}
+/* TEXT */
+.bd__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.bd__text h1 {
+  background: -webkit-gradient(linear, left bottom, left top, from(#ff0844), to(#ffb199));
+  background: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background: -webkit-linear-gradient (to top, #ff0844 0%, #ffb199 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0 30px 0;
+}
+
+.animated {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-iteration-count: linear;
+          animation-iteration-count: linear;
+}
+
+/* BD CARD */
+.bd__card {
+  position: relative;
+}
+
+.bd__card button {
+  width: 190px;
+  height: 25px;
+  border: none;
+  color: yellow;
+  font-weight: bold;
+  position: absolute;
+  left: 27.5px;
+  bottom: 50px;
+  background-color: #e05c98;
+  cursor: pointer;
+}
+
+.bd__card img {
+  width: 250px;
+  height: 250px;
+}
+
+/* content in card */
+.bd__card__content {
+  background-color: papayawhip;
+  border: 2px solid peachpuff;
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+  display: none;
+  position: relative;
+}
+.bd__card__content h1,
+.bd__card__content p,
+.bd__card__content i,
+.bd__card__content h4 {
+  background: linear-gradient(-225deg, #ff057c 0%, #8d0b93 50%, #321575 100%);
+  background: -webkit-linear-gradient
+    (-225deg, #ff057c 0%, #8d0b93 50%, #321575 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bd__card__content h1 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px 20px;
+}
+.bd__card__content i {
+  font-size: 30px;
+  text-align: center;
+}
+.bd__card__content img {
+  width: 60px;
+  height: 60px;
+}
+.bd__card__content .img {
+  position: absolute;
+  top: 70px;
+}
+.bd__card__content .img2 {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+}
+.bd__card__content p {
+  font-size: 17px;
+  font-family: "Dancing Script", cursive;
+  padding: 0 15px;
+  font-weight: bold;
+}
+.bd__card__content h4 {
+  font-size: 18px;
+  font-family: "Dancing Script", cursive;
+  text-align: right;
+  font-weight: bold;
+}
+.bd__card__content .btn__close {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 40px;
+  background: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+  cursor: pointer;
+}
+.card__content {
+  position: relative;
+}
+.bd__card__content {
+  position: absolute;
+  left: 80%;
+  top: 200px;
+}
+
+.present {
+  position: relative;
+}
+.present .bd__card {
+  position: absolute;
+  top: 200px;
+  left: 80%;
+}
